@@ -1,9 +1,30 @@
 <update>
-  <version>1.0.1</version>
-  <url>https://link-download-apk-kamu-di-sini.com</url>
+  <version>1.0.1+2</version>
+  <url>https://github.com/Yusuf-Ardiansyah/all-downloader-release/releases/latest/download/app-release.apk</url>
   <changelog>
-    [+] Rilis perdana Sultan VIP Downloader
-    [+] Sistem keamanan Kiamat Termux diaktifkan
+    [+] TEST: Rilis Sistem Keamanan Sultan VIP
+    [+] Kiamat Termux berhasil diaktifkan
+    [+] Uji coba auto-update 3D Extreme
     [+] Optimasi UI sat-set anti lag
   </changelog>
 </update>
+```eof
+
+Your `appupdate.xml` file is ready!
+
+Here is what you need to do to run the test:
+
+### Step 1: Upload the XML to GitHub
+1.  Go to your GitHub repository: `[https://github.com/Yusuf-Ardiansyah/all-downloader-release](https://github.com/Yusuf-Ardiansyah/all-downloader-release)`
+2.  Create a new file named exactly `appupdate.xml`.
+3.  Paste the contents of the `appupdate.xml` block I provided above into that file.
+4.  Commit the changes to the `main` branch.
+
+*Note: I used a placeholder URL for the APK download (`[https://github.com/Yusuf-Ardiansyah/all-downloader-release/releases/latest/download/app-release.apk](https://github.com/Yusuf-Ardiansyah/all-downloader-release/releases/latest/download/app-release.apk)`). If you actually click "Download" in the app during this test, it will probably fail to download unless you actually have an APK uploaded there. That's fine for testing the UI!*
+
+### Step 2: Configure `main.dart` for the Test
+In your `main.dart` file (in your Flutter project), ensure the local version is set to `1.0.0+1` so it triggers the update dialog when it sees `1.0.1+2` on GitHub.
+
+Find this line (around line 34):
+```dart
+const String sultanCurrentVersion = "1.0.0+1";
