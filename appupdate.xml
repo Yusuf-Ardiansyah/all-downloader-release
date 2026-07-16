@@ -1,11 +1,11 @@
 <update>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <url>https://github.com/Yusuf-Ardiansyah/all-downloader-release/releases/latest/download/app-arm64-v8a-release.apk</url>
   <changelog>
-[+] XHRC Sistem Keamanan =
-[+] Kecepatan Downloader =
-[+] Uji coba auto-update =
-[+] Optimasi UI Anti Lag =
-[+] Optimasi Server VViP =
+[+] Youtube Premium  
+[+] Tiktok Downloader 
+[+] Facebook Downloader
+[+] Instagram Downloader
+[+] Whatsapp Status Saver
   </changelog>
 </update>
