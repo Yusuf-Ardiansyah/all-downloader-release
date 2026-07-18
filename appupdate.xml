@@ -1,5 +1,5 @@
 <update>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <url>https://github.com/Yusuf-Ardiansyah/all-downloader-release/releases/latest/download/app-arm64-v8a-release.apk</url>
   <changelog>
 [+] Youtube Premium  
@@ -7,5 +7,7 @@
 [+] Facebook Downloader
 [+] Instagram Downloader
 [+] Whatsapp Status Saver
+[+] Battery Saver
+[+] Auto Clear Cache    
   </changelog>
 </update>
